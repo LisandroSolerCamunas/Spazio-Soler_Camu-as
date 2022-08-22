@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    background-color: grey
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link{
+    font-size: 20px; 
+}
+.nav-link:hover{
+    color: black !important;
+}
+.navbar-collapse{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.row{
+    background-color: rgba(128, 128, 128, 0.486);
+}
+.jumbotron{
+    background-image: url(./mutlimedia/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px;
+    margin: 0px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color:#ffff;
+    padding: 10px;
+    margin: 0px;
+    background-color: grey;
+    font-size: 30px;
+}
+#cortina{
+    background-image: url(./mutlimedia/cortina.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+#cortina-motorizada{
+    background-image: url(./mutlimedia/cortina-motorizada.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+#Toldo{
+    background-image: url(./mutlimedia/toldo.jpg);
+    height:500px;
+    background-size: cover;
+    background-position: center;
+}
+
+#Persiana{
+    background-image: url(./mutlimedia/persiana.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+p{
+    font-size: 20px;
+}
+hr{
+    border: black 1px solid;
+    margin: 0px;
+}
+footer{
+    background-color: grey;
+    margin: 0px;
+    font-size: 24px;
+    text-align: center;
+}
+.servicio{
+    background-color: rgba(128, 128, 128, 0.562);
+    text-align: center;
+    list-style: none;
+    font-size: 18px;
+}
+.linea{
+    border: 1px black solid;
+}
+li{
+    font-size: 22px;
+    padding: 5px;
+}
+form{
+    background-color: rgba(128, 128, 128, 0.486);
+    font-size: 20px;
+}
+.input{
+    margin: 5px;
+}
+.mapa{
+    overflow: hidden;
+    padding-bottom: 400px;
+    position: relative;
+    height: 669px;
+}
+.mapa iframe{
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.nosotros{
+    height: 669px;
+    font-size: 25px;
+    margin: 0px;
+    padding: 3px;
+    background-image: url(./mutlimedia/cortina-gris.jpg);
+    background-image: linear-gradient(
+        0deg
+        rgba(241, 228, 228, 0.863),
+        rgba(241, 228, 228, 0.863)
+    );
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 16px;
+    }
+    footer{
+        font-size: 18px;
+    }
+    li{
+        font-size: 15px;
+        height: 50px;
+        text-align: center;
+        padding: 10px;
+    }
+    legend{
+        font-size: 18px;
+    }
+    form{
+        font-size: 15px;
+        height: 439px;
+    }
+    .nosotros{
+        height: 691px;
+        font-size: 18px;
+    }
+    #cortina{
+        height: 300px;
+    }
+    #cortina-motorizada{
+        height: 300px;
+    }
+    #Persina{
+        height: 200px;
+    }
+    #Toldo{
+        height: 300px;
+    }
+    .mapa{
+        height: 691px;
+    }
+}

@@ -5,10 +5,10 @@
     background-color: grey
 }
 .navbar-brand{
-    font-size: 30px;
+    font-size: 26px;
 }
 .nav-link{
-    font-size: 20px; 
+    font-size: 18px; 
 }
 .nav-link:hover{
     color: black !important;
@@ -35,7 +35,10 @@ h2{
     padding: 10px;
     margin: 0px;
     background-color: grey;
-    font-size: 30px;
+    font-size: 22px;
+}
+h3{
+    font-size: 20px;
 }
 #cortina{
     background-image: url(./mutlimedia/cortina.jpg);
@@ -66,7 +69,7 @@ h2{
 }
 
 p{
-    font-size: 20px;
+    font-size: 18px;
 }
 hr{
     border: black 1px solid;
@@ -75,7 +78,7 @@ hr{
 footer{
     background-color: grey;
     margin: 0px;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
 }
 .servicio{
@@ -88,12 +91,15 @@ footer{
     border: 1px black solid;
 }
 li{
-    font-size: 22px;
+    font-size: 17px;
     padding: 5px;
+}
+legend{
+    font-size: 18px;
 }
 form{
     background-color: rgba(128, 128, 128, 0.486);
-    font-size: 20px;
+    font-size: 15px;
 }
 .input{
     margin: 5px;
@@ -113,7 +119,7 @@ form{
 }
 .nosotros{
     height: 669px;
-    font-size: 25px;
+    font-size: 20px;
     margin: 0px;
     padding: 3px;
     background-image: url(./mutlimedia/cortina-gris.jpg);
@@ -159,7 +165,7 @@ form{
     }
     form{
         font-size: 15px;
-        height: 439px;
+        height: 450px;
     }
     .nosotros{
         height: 691px;

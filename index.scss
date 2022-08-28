@@ -12,10 +12,10 @@
 
 .nav-link {
     font-size: 18px;
-}
 
-.nav-link:hover {
-    color: black !important;
+    &:hover {
+        color: black  !important;
+    }
 }
 
 .navbar-collapse {
@@ -129,14 +129,14 @@ form {
     padding-bottom: 400px;
     position: relative;
     height: 669px;
-}
 
-.mapa iframe {
-    left: 0px;
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
+    iframe {
+        left: 0px;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
 }
 
 .nosotros {
@@ -218,5 +218,3 @@ form {
         height: 691px;
     }
 }
-
-/*# sourceMappingURL=index.css.map */

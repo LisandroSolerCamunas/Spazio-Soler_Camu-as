@@ -52,28 +52,28 @@ h3 {
 
 #cortina {
     background-image: url(./mutlimedia/cortina.jpg);
-    height: 500px;
+    height: 450px;
     background-size: cover;
     background-position: center;
 }
 
 #cortina-motorizada {
     background-image: url(./mutlimedia/cortina-motorizada.jpg);
-    height: 500px;
+    height: 450px;
     background-size: cover;
     background-position: center;
 }
 
 #Toldo {
     background-image: url(./mutlimedia/toldo.jpg);
-    height: 500px;
+    height: 450px;
     background-size: cover;
     background-position: center;
 }
 
 #Persiana {
     background-image: url(./mutlimedia/persiana.jpg);
-    height: 500px;
+    height: 450px;
     background-size: cover;
     background-position: center;
 }
@@ -153,7 +153,9 @@ form {
     justify-content: center;
     align-items: center;
     color: black;
+    text-shadow: 0 0 5px white
 }
+
 
 @media screen and (max-width: 600px) {
     h1 {

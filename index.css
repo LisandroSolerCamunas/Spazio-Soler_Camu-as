@@ -1,222 +1,206 @@
 * {
-    margin: 0px;
+  margin: 0px;
 }
 
 .navbar {
-    background-color: grey;
+  background-color: grey;
 }
 
 .navbar-brand {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .nav-link {
-    font-size: 18px;
+  font-size: 18px;
 }
-
 .nav-link:hover {
-    color: black !important;
+  color: black !important;
 }
 
 .navbar-collapse {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row {
-    background-color: rgba(128, 128, 128, 0.486);
+  background-color: rgba(128, 128, 128, 0.486);
 }
 
 .jumbotron {
-    background-image: url(./mutlimedia/fondo.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 0px;
-    margin: 0px;
-    text-align: center;
+  background-image: url(./mutlimedia/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px;
+  margin: 0px;
+  text-align: center;
 }
 
 h2 {
-    text-align: center;
-    color: white;
-    padding: 10px;
-    margin: 0px;
-    background-color: grey;
-    font-size: 22px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  background-color: grey;
+  font-size: 22px;
 }
 
 h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #cortina {
-    background-image: url(./mutlimedia/cortina.jpg);
-    height: 500px;
-    background-size: cover;
-    background-position: center;
+  background-image: url(./mutlimedia/cortina.jpg);
+  height: 450px;
+  background-size: cover;
+  background-position: center;
 }
 
 #cortina-motorizada {
-    background-image: url(./mutlimedia/cortina-motorizada.jpg);
-    height: 500px;
-    background-size: cover;
-    background-position: center;
+  background-image: url(./mutlimedia/cortina-motorizada.jpg);
+  height: 450px;
+  background-size: cover;
+  background-position: center;
 }
 
 #Toldo {
-    background-image: url(./mutlimedia/toldo.jpg);
-    height: 500px;
-    background-size: cover;
-    background-position: center;
+  background-image: url(./mutlimedia/toldo.jpg);
+  height: 450px;
+  background-size: cover;
+  background-position: center;
 }
 
 #Persiana {
-    background-image: url(./mutlimedia/persiana.jpg);
-    height: 500px;
-    background-size: cover;
-    background-position: center;
+  background-image: url(./mutlimedia/persiana.jpg);
+  height: 450px;
+  background-size: cover;
+  background-position: center;
 }
 
 p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 hr {
-    border: black 1px solid;
-    margin: 0px;
+  border: black 1px solid;
+  margin: 0px;
 }
 
 footer {
-    background-color: grey;
-    padding: 4px;
-    margin: 0px;
-    font-size: 20px;
-    text-align: center;
+  background-color: grey;
+  padding: 4px;
+  margin: 0px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .servicio {
-    background-color: rgba(128, 128, 128, 0.562);
-    text-align: center;
-    list-style: none;
-    font-size: 18px;
+  background-color: rgba(128, 128, 128, 0.562);
+  text-align: center;
+  list-style: none;
+  font-size: 18px;
 }
 
 .linea {
-    border: 1px black solid;
+  border: 1px black solid;
 }
 
 li {
-    font-size: 17px;
-    padding: 5px;
+  font-size: 17px;
+  padding: 5px;
 }
 
 legend {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 form {
-    background-color: rgba(128, 128, 128, 0.486);
-    font-size: 15px;
+  background-color: rgba(128, 128, 128, 0.486);
+  font-size: 15px;
 }
 
 .input {
-    margin: 5px;
+  margin: 5px;
 }
 
 .mapa {
-    overflow: hidden;
-    padding-bottom: 400px;
-    position: relative;
-    height: 669px;
+  overflow: hidden;
+  padding-bottom: 400px;
+  position: relative;
+  height: 669px;
 }
-
 .mapa iframe {
-    left: 0px;
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .nosotros {
-    height: 669px;
-    font-size: 20px;
-    margin: 0px;
-    padding: 3px;
-    background-image: url(./mutlimedia/cortina-gris.jpg);
-    background-image: linear-gradient(0deg rgba(241, 228, 228, 0.863), rgba(241, 228, 228, 0.863));
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
+  height: 669px;
+  font-size: 20px;
+  margin: 0px;
+  padding: 3px;
+  background-image: url(./mutlimedia/cortina-gris.jpg);
+  background-image: linear-gradient(0deg rgba(241, 228, 228, 0.863), rgba(241, 228, 228, 0.863));
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-shadow: 0 0 5px white;
 }
 
 @media screen and (max-width: 600px) {
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    h3 {
-        font-size: 18px;
-        font-weight: bold;
-    }
-
-    p {
-        font-size: 16px;
-    }
-
-    footer {
-        font-size: 18px;
-    }
-
-    li {
-        font-size: 15px;
-        height: 50px;
-        text-align: center;
-        padding: 10px;
-    }
-
-    legend {
-        font-size: 18px;
-    }
-
-    form {
-        font-size: 15px;
-        height: 450px;
-    }
-
-    .nosotros {
-        height: 691px;
-        font-size: 18px;
-    }
-
-    #cortina {
-        height: 300px;
-    }
-
-    #cortina-motorizada {
-        height: 300px;
-    }
-
-    #Persina {
-        height: 200px;
-    }
-
-    #Toldo {
-        height: 300px;
-    }
-
-    .mapa {
-        height: 691px;
-    }
-}
-
-/*# sourceMappingURL=index.css.map */
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 16px;
+  }
+  footer {
+    font-size: 18px;
+  }
+  li {
+    font-size: 15px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+  }
+  legend {
+    font-size: 18px;
+  }
+  form {
+    font-size: 15px;
+    height: 450px;
+  }
+  .nosotros {
+    height: 691px;
+    font-size: 18px;
+  }
+  #cortina {
+    height: 300px;
+  }
+  #cortina-motorizada {
+    height: 300px;
+  }
+  #Persina {
+    height: 200px;
+  }
+  #Toldo {
+    height: 300px;
+  }
+  .mapa {
+    height: 691px;
+  }
+}/*# sourceMappingURL=index.css.map */
